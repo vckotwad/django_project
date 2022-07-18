@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+
+    <div class="text-center">
+    <img src="{% static 'core/images/profile.png' %}" alt="ProfilePic" class=" img-thumbnail mt-5" width="250px" height="150px">
+    </div>
+    <div class="text-white mx-5">
+        <h1 class="font-weight-bold">Hello,</h1>
+    </div>
+
+    
+    <div class="text-white mx-5 text-justify">
+        <p style="text-indent:100px;">I am <b class="text-warning">John Doe</b> having 1 years of experience of full-stack web development experience for global business,
+            I offer the technical expertise you are seeking for your web developer position. </p>
+    </div>
+ <div class="text-center">
+    <a href="" class="btn btn-outline-warning my-3 mr-3">Hire Me</a>
+    <a href="" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+</div>
+{% endblock content %}
